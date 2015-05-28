@@ -24,11 +24,11 @@ namespace AZ_Tests.Examples
 
         private static List<AdditionalProblemPoint> additionalProblemPointsForExample4 = new List<AdditionalProblemPoint>
         {
-            //new AdditionalProblemPoint(new Point(){X = 0.0f, Y = 0.0f}, true),
+            new AdditionalProblemPoint(new Point(){X = 1.5f, Y = 4.0f}, false),
+            new AdditionalProblemPoint(new Point(){X = 0.0f, Y = 0.0f}, true),
             new AdditionalProblemPoint(new Point(){X = 1.0f, Y = 1.0f}, true),
             new AdditionalProblemPoint(new Point(){X = 2.0f, Y = 1.0f}, true),
             new AdditionalProblemPoint(new Point(){X = 3.0f, Y = 2.0f}, true),
-            //new AdditionalProblemPoint(new Point(){X = 1.5f, Y = 4.0f}, false),
             new AdditionalProblemPoint(new Point(){X = -2.0f, Y = 6.0f}, false),
             new AdditionalProblemPoint(new Point(){X = 1.0f, Y = 3.0f}, true)
         };

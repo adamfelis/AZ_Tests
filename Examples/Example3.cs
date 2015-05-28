@@ -20,7 +20,7 @@ namespace AZ_Tests.Examples
 
         private static List<AdditionalProblemPoint> additionalProblemPointsForExample3 = new List<AdditionalProblemPoint>
         {
-            //new AdditionalProblemPoint(new Point(){X = 0.0f, Y = 0.0f}, true),
+            new AdditionalProblemPoint(new Point(){X = 0.0f, Y = 0.0f}, true),
             new AdditionalProblemPoint(new Point(){X = -1.0f, Y = 1.0f}, false),
             new AdditionalProblemPoint(new Point(){X = 2.0f, Y = 1.0f}, false),
             new AdditionalProblemPoint(new Point(){X = 3.0f, Y = 0.0f}, true),
